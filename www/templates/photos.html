@@ -1,0 +1,16 @@
+<ion-view title="Photo Library">
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item class="item item-thumbnail-left" ng-repeat="photo in photos" ng-click="openPhoto($index)">
+        <img ng-src="{{ photo.thumbnail_url }}">
+        <h2>{{ photo.title }}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+
+  <div class="bar bar-footer bar-balanced footer-button">
+    <button class="button button-full button-balanced button-icon icon ion-camera" ng-click="takePhoto()">
+      Take Photo
+    </button>
+  </div>
+</ion-view>

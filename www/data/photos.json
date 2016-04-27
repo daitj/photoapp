@@ -1,0 +1,44 @@
+[
+  {
+    "date": "Wed Jul 30 2015 09:35:33 GMT+0000 (UTC)",
+    "carrier": "Elisa",
+    "id": "motorola",
+    "thumbnail_url": "img/motorola.jpg",
+    "title": "Motorola\u2122 Rarz"
+  },
+  {
+    "date": "Mon Mar 10 2014 23:30:03 GMT+0000 (UTC)",
+    "carrier": "DNA",
+    "id": "nexus",
+    "thumbnail_url": "img/nexus6.png",
+    "title": "Google Nexus\u2122 6"
+  },
+  {
+    "date": "Thu Aug 23 2013 17:04:11 GMT+0000 (UTC)",
+    "carrier": "AT&T",
+    "id": "iPhone",
+    "thumbnail_url": "img/iphone.jpg",
+    "title": "Apple iPhone\u2122 SE"
+  },
+  {
+    "date": "Wed May 21 2012 22:44:08 GMT+0000 (UTC)",
+    "carrier": "Vodafone",
+    "id": "Nokia",
+    "thumbnail_url": "img/nokia.jpg",
+    "title": "Nokia\u2122 forever!"
+  },
+  {
+    "date": "Tue Mar 31 2011 22:04:08 GMT+0000 (UTC)",
+    "carrier": "AT&T",
+    "id": "Samsung",
+    "thumbnail_url": "img/samsung.jpg",
+    "title": "Samsung\u2122 Galaxy s7"
+  },
+  {
+    "date": "Tue Nov 26 2010 08:57:21 GMT+0000 (UTC)",
+    "carrier": "Tele",
+    "id": "Dell",
+    "thumbnail_url": "img/dell.jpeg",
+    "title": "Dell\u2122 Venue"
+  }
+]

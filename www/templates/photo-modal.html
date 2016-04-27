@@ -1,0 +1,15 @@
+<div class="modal image-modal transparent">
+<div class="modal-close" ng-show="controlsVisible" class="ng-hide" ng-click="closePhoto()">&times;</div>
+<ion-slide-box on-slide-changed="photoSlideChanged(index)" show-pager="false">
+  <ion-slide ng-repeat="photo in photos">
+    <img ng-click="toggleControls()" ng-src="{{ photo.thumbnail_url }}" class="fullscreen-image" />
+    <div ng-show="controlsVisible" class="ng-hide">
+    <p class="info">
+      <span class="info-title">{{ photo.title }}</span>
+      <span class="info-date">{{ photo.date | parseStrDate | date:'MM.dd.yyyy'}} at  {{ photo.date | parseStrDate | date:'HH:mm' }}</span>
+    </p>
+    <div class="delete-container"><div class="delete" ng-click="photoDelete('{{photo.id}}')">Delete</div></div>
+   </div>
+  </ion-slide>
+</ion-slide-box>
+</div>
