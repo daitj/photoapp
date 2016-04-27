@@ -84,11 +84,11 @@ angular.module('photoApp', ['ionic', 'photoApp.services', 'ngCordova', 'ngCordov
     };
     $scope.photoDelete = function(photoId) {
       $scope.modal.hide().then(function(modal){
-        //var photoIndex = $scope.photos.map(function(e) { return e.id; }).indexOf(photoId);
-        //$scope.photos.splice(photoIndex,1);
-        PhotoLibraryService.deletePhoto(photoId).then(function(photos){
-          $scope.photos = photos.slice(0);
-        });
+        var photoIndex = $scope.photos.map(function(e) { return e.id; }).indexOf(photoId);
+        $scope.photos.splice(photoIndex,1);
+        //PhotoLibraryService.deletePhoto(photoId).then(function(photos){
+        //  $scope.photos = photos.slice(0);
+        //});
       });
     };
     $scope.toggleControls = function(){
